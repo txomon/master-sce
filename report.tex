@@ -1,0 +1,32 @@
+% !TeX spellcheck = en_US
+\documentclass[a4paper,conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+
+
+\begin{document}
+\title{Hardware module integration in a Zedboard using Linux based embedded system generation toolchains}
+\author{Gorka Santos Ortuzar\\<gorkasantosortuzar@gmail.com> \and Javier Domingo Cansino\\<javierdo1@gmail.com>}
+\maketitle
+
+\begin{abstract}
+The latest trends on hardware design using FPGAs have taken software world into hardware generation.
+Hardware systems are no longer thought to have a full customized development but the reuse of 
+industry wide-known tools to generate generic system that supports your custom appliance.
+This is both needed and possible thanks the lowered prices and high-performance processors embedded in the silicon.
+\end{abstract}
+\begin{IEEEkeywords}
+zynq, xilinx, zedboard, buildroot, linux, fpga
+\end{IEEEkeywords}
+
+\IEEEPARstart{C}{reation} of embedded devices have always carried a lot of custom scripts to carry on the build
+of a bootable system, as well as the parts needed to build the different tools to accomplish the task. To sum up
+plenty of work has been made to create embedded device systems.
+
+Back to the start of the decade, buildroot and openwrt projects among others started to gain relevance, as the
+generation of a specific configured system but with generic applications was finally possible. This is new in hardware
+world because usually, hardware teams did releases and gave specs to firmware teams, being able to develop customized
+systems.
+
+
+\end{document}
